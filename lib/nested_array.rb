@@ -22,6 +22,10 @@ def assembled_matrix
 end
 
 def array_literal_matrix
+  SORTED_ENNET_HOUSE = ENNET_HOUSE.sort
+  SORTED_ENFIELD_TENNIS_ACADEMY = ENFIELD_TENNIS_ACADEMY.sort 
+  
+  
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
