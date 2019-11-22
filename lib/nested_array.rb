@@ -15,7 +15,10 @@ ENFIELD_TENNIS_ACADEMY = [
 ]
 
 def assembled_matrix
-  
+  matrix = [
+    ENNET_HOUSE,
+    ENFIELD_TENNIS_ACADEMY
+  ]
   
   
   
